@@ -1,0 +1,31 @@
+.gummy-wrap {
+  position: relative;
+  overflow: hidden;
+}
+
+.gummy-inner-wrap {
+  overflow-y: scroll;
+  position: relative;
+}
+
+.gummy-inner-wrap.gum-column { overflow-x: scroll; }
+
+.gummy-head {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.gummy-column {
+  position: absolute;
+  left: 0;
+  z-index: 1000;
+}
+
+.gummy-corner {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2000;
+}
